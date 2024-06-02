@@ -1,15 +1,17 @@
 .ImageCard {
-  cursor: pointer;
-}
-
-.Image {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
 
-.Image:hover {
+.ImageCard:hover {
   transform: scale(1.05);
+}
+
+.Image {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
 }
